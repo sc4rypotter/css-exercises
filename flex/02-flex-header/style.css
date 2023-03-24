@@ -3,6 +3,8 @@
   background: papayawhip;
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  padding: 10px 0px 10px 10px;
 }
 
 .logo {
@@ -11,27 +13,23 @@
   color: tomato;
   background: white;
   padding: 4px 32px;
-}
-
-.left-links {
-
-}
-
-.right-links {
-  
+  margin-right: 12px;
+  align-items: center;
 }
 
 ul {
   /* this removes the dots on the list items*/
   list-style-type: none;
-  margin-left: 0;
   padding-left: 0;
+  padding-right: 0;
+  display: flex;
 }
 
 a {
   font-size: 22px;
   background: white;
   padding: 8px;
+  margin-right: 12px;
   /* this removes the line under the links */
   text-decoration: none;
 }
